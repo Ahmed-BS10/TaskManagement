@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAAKgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T02:11:20.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T02:11:17.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TackManagement\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TackManagement\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA1wCAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T02:07:19.303Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
