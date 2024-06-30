@@ -1,0 +1,70 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = "~/Areas/Identity/Pages/AuthLayout.cshtml";
+}
+
+<body class="bg-gradient-success">
+
+    <div class="container centered">
+
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                                    </div>
+                                    <form class="user" id="account" method="post">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.Email" class="form-control form-control-user" autocomplete="username" aria-required="true" placeholder="Enter Emile Or Username..." />
+                                            <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input asp-for="Input.Password" class="form-control form-control-user" autocomplete="current-password" aria-required="true" placeholder="Password" />
+                                            <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox small">
+                                                <label asp-for="Input.RememberMe" class="form-label">
+                                                    <input class="form-check-input " asp-for="Input.RememberMe" />
+                                                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-success btn-user btn-block mb-2" type="submit" id="login-submit" href="index.html">Login</button>
+                                        <div class="text-center">
+                                            <a class="small w-25" id="forgot-password" asp-page="./ForgotPassword">Forgot Password</a>
+                                        </div>
+                                        <div class="text-center">
+                                            <a asp-page="./Register" class="small w-25" asp-route-returnUrl="@Model.ReturnUrl">Create an Account</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

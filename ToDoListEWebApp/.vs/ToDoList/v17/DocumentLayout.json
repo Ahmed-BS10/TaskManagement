@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\data\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\20240629233859_j.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TaskManagerDemo\\Data\\Migrations\\20240629233859_j.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\data\\config\\taskconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\data\\config\\taskconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\enums\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\todolistewebapp\\taskmanagerdemo\\taskmanagerdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BEF1293-CD06-472E-B808-95A0FAAF5658}|TaskManagerDemo\\TaskManagerDemo.csproj|solutionrelative:taskmanagerdemo\\taskmanagerdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\appsettings.json",
+              "RelativeToolTip": "TaskManagerDemo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-29T23:40:05.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Data\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T23:39:30.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T23:39:24.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240629233859_j.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\20240629233859_j.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Data\\Migrations\\20240629233859_j.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Migrations\\20240629233859_j.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Data\\Migrations\\20240629233859_j.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T23:38:59.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Program.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T23:33:59.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Views\\Tasks\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Views\\Tasks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Views\\Tasks\\Index.cshtml",
+              "RelativeToolTip": "TaskManagerDemo\\Views\\Tasks\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T23:11:35.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvyMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T23:02:44.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Enums\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Enums\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Enums\\TaskStatus.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Enums\\TaskStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T22:48:21.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Models\\Task.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T22:48:19.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskConfigration.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Config\\TaskConfigration.cs",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\Data\\Config\\TaskConfigration.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\Data\\Config\\TaskConfigration.cs",
+              "RelativeToolTip": "TaskManagerDemo\\Data\\Config\\TaskConfigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T22:48:05.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AQIAALgAAAAAAAAAAAAuwAkBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-29T22:47:28.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskManagerDemo",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\TaskManagerDemo.csproj",
+              "RelativeDocumentMoniker": "TaskManagerDemo\\TaskManagerDemo.csproj",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\ToDoListEWebApp\\TaskManagerDemo\\TaskManagerDemo.csproj",
+              "RelativeToolTip": "TaskManagerDemo\\TaskManagerDemo.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-29T22:46:36.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
