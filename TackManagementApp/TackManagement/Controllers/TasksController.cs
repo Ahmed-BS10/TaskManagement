@@ -13,7 +13,7 @@ using System.Runtime.Intrinsics.X86;
 
 namespace TackManagementModle.Controllers
 {
-    [Authorize]
+   
     public class TasksController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -28,7 +28,10 @@ namespace TackManagementModle.Controllers
         }
 
         // GET: Tasks
-        public async Task<IActionResult> Index(string filter)
+
+      
+
+        public async Task<IActionResult> Index(string? filter)
         {
             var user = await _userManager.GetUserAsync(User);
 

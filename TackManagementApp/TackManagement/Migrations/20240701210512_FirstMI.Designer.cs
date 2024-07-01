@@ -9,18 +9,18 @@ using TackManagementModle.Data;
 
 #nullable disable
 
-namespace TackManagementModle.Data.Migrations
+namespace TackManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240628093017_Add-Task-Table")]
-    partial class AddTaskTable
+    [Migration("20240701210512_FirstMI")]
+    partial class FirstMI
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.18")
+                .HasAnnotation("ProductVersion", "8.0.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -158,7 +158,7 @@ namespace TackManagementModle.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("TaskManagerDemo.Models.Identity.AppUser", b =>
+            modelBuilder.Entity("TackManagementModle.Models.Identity.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -217,6 +217,7 @@ namespace TackManagementModle.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
+                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
@@ -233,7 +234,7 @@ namespace TackManagementModle.Data.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("TaskManagerDemo.Models.Task", b =>
+            modelBuilder.Entity("TackManagementModle.Models.Task", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -279,7 +280,7 @@ namespace TackManagementModle.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("TaskManagerDemo.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -288,7 +289,7 @@ namespace TackManagementModle.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("TaskManagerDemo.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -303,7 +304,7 @@ namespace TackManagementModle.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TaskManagerDemo.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -312,16 +313,16 @@ namespace TackManagementModle.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("TaskManagerDemo.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TaskManagerDemo.Models.Task", b =>
+            modelBuilder.Entity("TackManagementModle.Models.Task", b =>
                 {
-                    b.HasOne("TaskManagerDemo.Models.Identity.AppUser", "User")
+                    b.HasOne("TackManagementModle.Models.Identity.AppUser", "User")
                         .WithMany("Tasks")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -330,7 +331,7 @@ namespace TackManagementModle.Data.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("TaskManagerDemo.Models.Identity.AppUser", b =>
+            modelBuilder.Entity("TackManagementModle.Models.Identity.AppUser", b =>
                 {
                     b.Navigation("Tasks");
                 });

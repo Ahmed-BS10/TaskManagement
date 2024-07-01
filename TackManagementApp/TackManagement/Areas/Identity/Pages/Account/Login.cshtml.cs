@@ -141,7 +141,7 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
                 var userClaims = await _userManager.GetClaimsAsync(user);
                 _logger.LogDebug("User claims: {Claims}", string.Join(", ", userClaims.Select(c => $"{c.Type}: {c.Value}")));
 
-                var result = await _signInManager.PasswordSignInAsync(user.UserName, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(user.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
 
                 if (result.Succeeded)
                 {
@@ -183,7 +183,7 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
         //    {
         //        AppUser user = new EmailAddressAttribute().IsValid(Input.Email) ? _userManager.FindByEmailAsync(Input.Email).Result : _userManager.FindByNameAsync(Input.Email).Result;
 
-        //        if(user is null)
+        //        if (user is null)
         //        {
         //            ModelState.AddModelError(string.Empty, "Invalid userName or password");
         //            return Page();
@@ -216,5 +216,17 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
         //    // If we got this far, something failed, redisplay form
         //    return Page();
         //}
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

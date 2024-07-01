@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TackManagementModle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30bef0874e2b00b67d04d3cd22da34b1e696de2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3e3605539f07602bce082ed7ef1e5966fa33f5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TackManagementModle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TackManagementModle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
