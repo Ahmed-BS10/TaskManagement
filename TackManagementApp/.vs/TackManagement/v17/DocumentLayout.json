@@ -162,7 +162,11 @@
               "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAADoAAAAAAAAAAAAAANsAAAAAAAAA",
+=======
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAKgAAABDAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-30T02:11:20.075Z",
               "EditorCaption": ""
@@ -201,8 +205,7 @@
               "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T02:11:17.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T02:11:17.159Z"
             },
             {
               "$type": "Document",
@@ -214,6 +217,7 @@
               "RelativeToolTip": "TackManagementModle\\Entities\\AppUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-07-01T22:26:36.024Z",
               "EditorCaption": ""
             },
@@ -435,6 +439,9 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T21:05:13.024Z"
+=======
+              "WhenOpened": "2024-06-30T02:07:19.303Z"
+>>>>>>> Stashed changes
             }
           ]
         }
