@@ -6,9 +6,9 @@ namespace ToDoList.Web.Repository
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
-        private readonly ApplicationDbContext _dbContext;
+        private readonly AppDbContexts _dbContext;
 
-        public BaseRepository(ApplicationDbContext dbContext)
+        public BaseRepository(AppDbContexts dbContext)
         {
             _dbContext = dbContext;
         }

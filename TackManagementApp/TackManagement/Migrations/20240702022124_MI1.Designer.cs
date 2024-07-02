@@ -11,7 +11,7 @@ using TackManagementModle.Data;
 
 namespace TackManagement.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(AppDbContexts))]
     [Migration("20240702022124_MI1")]
     partial class MI1
     {

@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+builder.Services.AddDbContext<AppDbContexts>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     , x => x.MigrationsAssembly("TackManagement")
     ));
@@ -21,7 +21,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
-    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddEntityFrameworkStores<AppDbContexts>()
     .AddDefaultUI()
     .AddDefaultTokenProviders();
 

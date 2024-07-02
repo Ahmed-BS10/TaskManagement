@@ -16,11 +16,11 @@ namespace TackManagementModle.Controllers
    
     public class TasksController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly AppDbContexts _context;
         private readonly IBaseRepository<Task> _taskRepository;
         private UserManager<AppUser> _userManager;
 
-        public TasksController(ApplicationDbContext context, UserManager<AppUser> userManager, IBaseRepository<Task> taskRepository)
+        public TasksController(AppDbContexts context, UserManager<AppUser> userManager, IBaseRepository<Task> taskRepository)
         {
             _context = context;
             _userManager = userManager;
