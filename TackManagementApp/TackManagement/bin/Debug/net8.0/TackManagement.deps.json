@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.6",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.2",
-          "TackManagementModle": "1.0.0"
+          "TackManagementModle": "1.0.0",
+          "TaskManagementRepository": "1.0.0.0"
         },
         "runtime": {
           "TackManagement.dll": {}
@@ -2141,6 +2142,14 @@
         "runtime": {
           "TackManagementModle.dll": {}
         }
+      },
+      "TaskManagementRepository/1.0.0.0": {
+        "runtime": {
+          "TaskManagementRepository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3370,6 +3379,11 @@
     },
     "TackManagementModle/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskManagementRepository/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

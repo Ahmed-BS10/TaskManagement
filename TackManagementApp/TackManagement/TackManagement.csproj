@@ -38,6 +38,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\TackManagementModle\TackManagementModle.csproj" />
+	  <ProjectReference Include="..\TaskManagementRepository\TaskManagementRepository.csproj" />
 	</ItemGroup>
 	
 	

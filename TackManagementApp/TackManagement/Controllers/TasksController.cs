@@ -2,7 +2,6 @@
 using TackManagementModle.Data;
 using Microsoft.AspNetCore.Identity;
 using TackManagementModle.Entities;
-using TackManagementModle.Repository;
 using TackManagementModle.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Task = TackManagementModle.Entities.Tasks;
@@ -10,6 +9,7 @@ using TaskStatus = TackManagementModle.Enums.TaskStatus;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.Intrinsics.X86;
+using TaskManagementRepository.Base;
 
 namespace TackManagementModle.Controllers
 {
@@ -17,10 +17,10 @@ namespace TackManagementModle.Controllers
     public class TasksController : Controller
     {
         private readonly AppDbContexts _context;
-        private readonly IBaseRepository<Task> _taskRepository;
+        private readonly IRepository<Task> _taskRepository;
         private UserManager<AppUser> _userManager;
 
-        public TasksController(AppDbContexts context, UserManager<AppUser> userManager, IBaseRepository<Task> taskRepository)
+        public TasksController(AppDbContexts context, UserManager<AppUser> userManager, IRepository<Task> taskRepository)
         {
             _context = context;
             _userManager = userManager;

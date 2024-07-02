@@ -1,80 +1,64 @@
-﻿@using TackManagementModle.Entities;
-@using TackManagementModle.Models.ViewModels
+﻿ @using TackManagementModle.Entities;
+@using TackManagementModle.Models.ViewModels;
 @using TaskStatus = TackManagementModle.Enums.TaskStatus;
-@model ListOptions
+@model ListOptions;
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Task Management";
     TackManagementModle.Entities.Tasks task = Model.Tasks.FirstOrDefault();
 }
-
 <div class="container mt-5 mb-3">
-    <div class="row">
+    <div class="row mb-3">
         <div class="col-md-6 col-12 mb-2">
-            <a asp-action="Create" class="btn btn-primary w-100">Create New</a>
+            <a asp-action="Create" class="btn btn-primary btn-block">Create New Task</a>
         </div>
-        <div class="col-md-6 col-12">
-            <form asp-action="Index" class="d-flex justify-content-end">
-                <label asp-for="Filter" class="fs-4 fw-bold align-self-center">Filter:</label>
-                <select class="form-control ml-3 border w-50 mx-3" asp-for="Filter" asp-items="Model.TaskStatuses">
-                </select>
-                <button type="submit" class="btn btn-success">Apply</button>
+        <div class="col-md-6 col-12 d-flex justify-content-end">
+            <form asp-action="Index" class="form-inline">
+                <div style="display:flex">
+                    <label asp-for="Filter" class="fs-5 fw-bold mr-3 align-self-center">Filter:</label>
+                    <select class="form-control ml-3 border w-50 mx-3" asp-for="Filter" asp-items="Model.TaskStatuses">
+                    </select>
+                    <button type="submit" class="btn btn-success">Apply</button>
+                    <a href="@Url.Action("Index")" class="btn btn-secondary ml-3">Clear</a>
+                </div>
             </form>
         </div>
     </div>
 </div>
-
 <div class="container">
-    <table class="table table-striped ">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => task.Title)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => task.Description)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => task.Status)
-                </th>
-                <th>
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Tasks)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Title)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Status)
-                    </td>
-                    <td>
-                        @if (item.Status != TaskStatus.Completed)
-                        {
-                            <a asp-action="ChangeTaskStatus" asp-route-id="@item.Id" class="btn btn-success btn-sm" onclick="return confirm('Are You Sure Complete This Task ... ?');">Done</a>
-                        }
-                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are You Sure To Delete This Task ... ?')">Delete</a>
-                       
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
+    <div class="card shadow-sm">
+        <div class="card-body table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => task.Title)</th>
+                        <th>@Html.DisplayNameFor(model => task.Description)</th>
+                        <th>@Html.DisplayNameFor(model => task.Status)</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Tasks)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                            <td>
+                                <div class="btn-group btn-group-sm" role="group">
+                                    @if (item.Status != TaskStatus.Completed)
+                                    {
+                                        <a asp-action="ChangeTaskStatus" asp-route-id="@item.Id" class="btn btn-success btn-sm" onclick="return confirm('Are you sure you want to mark this task as completed?');">Done</a>
+                                    }
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this task?');">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> 
 
-<script>
-    function disableButton() {
-        document.getElementById("myButton").disabled = true;
-        Confirmation();
-    }
-    function Confirmation() {
-        return confirm('Are You Sure Complete This Task ... ?')
-    }
-</script> 

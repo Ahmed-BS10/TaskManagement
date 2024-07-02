@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TackManagementModle.Data;
 using TackManagementModle.Entities;
-using TackManagementModle.Repository;
-using ToDoList.Web.Repository;
+using TaskManagementRepository.Base;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,7 +27,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options => options.SignIn.Re
     .AddDefaultUI()
     .AddDefaultTokenProviders();
 
-builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 
 builder.Services.AddRazorPages();

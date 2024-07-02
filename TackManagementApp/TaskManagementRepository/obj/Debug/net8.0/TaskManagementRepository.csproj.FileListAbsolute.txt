@@ -1,0 +1,17 @@
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.csproj.AssemblyReference.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.AssemblyInfoInputs.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.AssemblyInfo.cs
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\bin\Debug\net8.0\TaskManagementRepository.deps.json
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\bin\Debug\net8.0\TaskManagementRepository.runtimeconfig.json
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\bin\Debug\net8.0\TaskManagementRepository.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\bin\Debug\net8.0\TaskManagementRepository.pdb
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\bin\Debug\net8.0\TackManagementModle.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\bin\Debug\net8.0\TackManagementModle.pdb
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskMana.A28B2385.Up2Date
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\refint\TaskManagementRepository.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.pdb
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\TaskManagementRepository.genruntimeconfig.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaskManagementRepository\obj\Debug\net8.0\ref\TaskManagementRepository.dll
