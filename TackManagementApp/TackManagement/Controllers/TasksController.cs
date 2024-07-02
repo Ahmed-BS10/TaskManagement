@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TackManagementModle.Data;
 using Microsoft.AspNetCore.Identity;
-using TackManagementModle.Models.Identity;
+using TackManagementModle.Entities;
 using TackManagementModle.Repository;
 using TackManagementModle.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Task = TackManagementModle.Models.Task;
+using Task = TackManagementModle.Entities.Tasks;
 using TaskStatus = TackManagementModle.Enums.TaskStatus;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
@@ -42,7 +42,7 @@ namespace TackManagementModle.Controllers
                 var tasks = _context.Tasks.Where(x => x.UserId == user.Id);
                 //var tasks = _context.Tasks.Where(x => x.User.Id == x.UserId);
 
-                var viewModel = new TaskListVM
+                var viewModel = new ListOptions
                 {
                     Tasks = filter switch
                     {
@@ -51,7 +51,7 @@ namespace TackManagementModle.Controllers
                         _ => tasks
                     },
                     Filter = filter,
-                    TaskStatuses = _GeneratListOptions(),
+                    TaskStatuses = _ListOptions(),
 
                     //User = user
                 };
@@ -61,6 +61,18 @@ namespace TackManagementModle.Controllers
 
             return NotFound();
         }
+
+        private IEnumerable<SelectListItem> _ListOptions()
+        {
+            return new List<SelectListItem>
+                    {
+                    new SelectListItem { Text = "All", Value = "" },
+                    new SelectListItem { Text = "Completed", Value = "completed" },
+                    new SelectListItem { Text = "Not Completed", Value = "notcompleted" }
+                    };
+        }
+
+
 
         public IActionResult ChangeTaskStatus(int id)
         {
@@ -151,15 +163,7 @@ namespace TackManagementModle.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private IEnumerable<SelectListItem> _GeneratListOptions()
-        {
-            return new List<SelectListItem>
-                    {
-                    new SelectListItem { Text = "All", Value = "" },
-                    new SelectListItem { Text = "Completed", Value = "completed" },
-                    new SelectListItem { Text = "Not Completed", Value = "notcompleted" }
-                    };
-        }
+        
 
     }
 }

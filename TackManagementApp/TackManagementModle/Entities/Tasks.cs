@@ -1,9 +1,8 @@
-﻿using TackManagementModle.Models.Identity;
-using TaskStatus = TackManagementModle.Enums.TaskStatus;
+﻿using TaskStatus = TackManagementModle.Enums.TaskStatus;
 
-namespace TackManagementModle.Models
+namespace TackManagementModle.Entities
 {
-    public class Task
+    public class Tasks
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;

@@ -1,0 +1,15 @@
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.csproj.AssemblyReference.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.AssemblyInfoInputs.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.AssemblyInfo.cs
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\bin\Debug\net8.0\TaksManagementRepository.deps.json
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\bin\Debug\net8.0\TaksManagementRepository.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\bin\Debug\net8.0\TaksManagementRepository.pdb
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\bin\Debug\net8.0\TackManagementModle.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\bin\Debug\net8.0\TackManagementModle.pdb
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksMana.6863455A.Up2Date
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\refint\TaksManagementRepository.dll
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\TaksManagementRepository.pdb
+C:\Users\Ahmed Ben Sahmaln\source\repos\TaskManagement\TackManagementApp\TaksManagementRepository\obj\Debug\net8.0\ref\TaksManagementRepository.dll

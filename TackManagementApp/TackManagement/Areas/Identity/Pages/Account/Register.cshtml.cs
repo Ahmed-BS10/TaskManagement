@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using TackManagementModle.Models.Identity;
+using TackManagementModle.Entities;
 
 namespace TackManagementModle.Areas.Identity.Pages.Account
 {
@@ -82,9 +82,9 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
             [Display(Name = "Email")]
             public string Email { get; set; }
 
-            [Required]
-            [Display(Name = "UserName")]
-            public string UserName { get; set; }
+            //[Required]
+            //[Display(Name = "UserName")]
+            //public string UserName { get; set; }
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -103,6 +103,10 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            [Display(Name = "UserName")]
+            public string UserName { get; set; }
         }
 
 
@@ -123,6 +127,7 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
                 user.UserName = Input.UserName;
+                //user.UserName = Input.UserName;
 
                 await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TackManagementModle.Data;
-using TackManagementModle.Models.Identity;
+using TackManagementModle.Entities;
 using TackManagementModle.Repository;
 using ToDoList.Web.Repository;
 

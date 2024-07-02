@@ -2,11 +2,11 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using TackManagementModle.Enums;
 
-namespace TackManagementModle.Data.Config
+namespace TackManagementModle.Data.EntitiesConfig
 {
-    public class TaskConfigration : IEntityTypeConfiguration<Models.Task>
+    public class TaskConfigration : IEntityTypeConfiguration<Entities.Tasks>
     {
-        public void Configure(EntityTypeBuilder<Models.Task> builder)
+        public void Configure(EntityTypeBuilder<Entities.Tasks> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Title).IsRequired().HasMaxLength(250);

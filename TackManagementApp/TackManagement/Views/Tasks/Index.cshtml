@@ -1,11 +1,12 @@
-﻿@using TackManagementModle.Models.ViewModels;
-@using TackManagementModle.Models;
+﻿ @using TackManagementModle.Entities;
+@using TackManagementModle.Models.ViewModels
 @using TaskStatus = TackManagementModle.Enums.TaskStatus;
-@model TaskListVM
+@model ListOptions
 
 @{
     ViewData["Title"] = "Index";
-    TackManagementModle.Models.Task task = Model.Tasks.FirstOrDefault();
+    TackManagementModle.Entities.Tasks task =  Model.Tasks.FirstOrDefault();
+    /*  model.tasks.firstordefault(); */
 }
 
 <div class="d-flex mt-5 mb-3">

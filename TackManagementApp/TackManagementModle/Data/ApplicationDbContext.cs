@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using TackManagementModle.Data.Config;
-using TackManagementModle.Models.Identity;
+using TackManagementModle.Data.EntitiesConfig;
+using TackManagementModle.Entities;
+
 
 namespace TackManagementModle.Data
 {
@@ -14,7 +15,7 @@ namespace TackManagementModle.Data
         }
 
 
-        public DbSet<Models.Task> Tasks { get; set; }
+        public DbSet<Tasks> Tasks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -29,7 +30,7 @@ namespace TackManagementModle.Data
             //builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogin", "Secority");
             //builder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaim", "Secority");
 
-            new TaskConfigration().Configure(builder.Entity<Models.Task>());
+            new TaskConfigration().Configure(builder.Entity<Tasks>());
         }
     }
 }
