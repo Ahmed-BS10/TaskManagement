@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TackManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e79830c2eef2582a10c504aa5865756ad9557135")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8adbf8d50013131f792c56614fee1afa9c16e55d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TackManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TackManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

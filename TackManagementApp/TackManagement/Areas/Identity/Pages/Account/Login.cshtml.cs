@@ -21,12 +21,14 @@ namespace TackManagement.Areas.Identity.Pages.Account
     public class LoginModel : PageModel
     {
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly UserManager<AppUser> _userManger;
         private readonly ILogger<LoginModel> _logger;
 
-        public LoginModel(SignInManager<AppUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<AppUser> signInManager, ILogger<LoginModel> logger, UserManager<AppUser> userManger)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManger=userManger;
         }
 
         /// <summary>
@@ -62,14 +64,21 @@ namespace TackManagement.Areas.Identity.Pages.Account
         public class InputModel
         {
 
-            [MaxLength(100)]
-            public string FirstName { get; set; }
 
-            [MaxLength(100)]
-            public string LastName { get; set; }
 
-            [MaxLength(100)]
-            public string UserName { get; set; }
+            //[Required]
+            //[Display(Name = "FirstName")]
+            //public string FirstName { get; set; }
+
+            //[Required]
+            //[Display(Name = "LastName")]
+            //public string LastName { get; set; }
+
+
+            //[Required]
+            //[Display(Name = "UserName")]
+            //public string UserName { get; set; }
+
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -118,11 +127,14 @@ namespace TackManagement.Areas.Identity.Pages.Account
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
+
+            AppUser user = await _userManger.FindByEmailAsync(Input.Email);
+
             if (ModelState.IsValid)
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(user.UserName, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");

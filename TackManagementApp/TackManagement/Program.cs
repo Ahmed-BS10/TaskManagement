@@ -14,6 +14,8 @@ builder.Services.AddDbContext<AppDbContexts>(options => options.UseSqlServer(
     , x => x.MigrationsAssembly("TackManagement")
     ));
 
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContexts>();
+
 //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
 
 
