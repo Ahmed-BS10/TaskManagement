@@ -13,7 +13,7 @@ using System.Runtime.Intrinsics.X86;
 
 namespace TackManagementModle.Controllers
 {
-   
+    [Authorize]
     public class TasksController : Controller
     {
         private readonly AppDbContexts _context;
