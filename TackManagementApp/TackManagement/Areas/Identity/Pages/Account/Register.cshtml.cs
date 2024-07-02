@@ -77,18 +77,7 @@ namespace TackManagement.Areas.Identity.Pages.Account
             /// </summary>
             /// 
 
-            //[Required]
-            //[Display(Name = "FirstName")]
-            //public string FirstName { get; set; }
-
-            //[Required]
-            //[Display(Name = "LastName")]
-            //public string LastName { get; set; }
-
-
-            //[Required]
-            //[Display(Name = "UserName")]
-            //public string UserName { get; set; }
+          
 
             [Required]
             [EmailAddress]
@@ -129,9 +118,7 @@ namespace TackManagement.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-                //user.FirstName = Input.FirstName;
-                //user.LastName = Input.LastName;
-                //user.UserName = Input.UserName;
+              
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);

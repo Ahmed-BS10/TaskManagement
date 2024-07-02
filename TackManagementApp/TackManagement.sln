@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TackManagementModle", "Tack
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TackManagement", "TackManagement\TackManagement.csproj", "{49338523-5BCA-4BFF-BA19-ABED57CC712A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementRepository", "TaskManagementRepository\TaskManagementRepository.csproj", "{EDE021B2-3481-4F2D-8472-C5A5032EF641}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{49338523-5BCA-4BFF-BA19-ABED57CC712A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49338523-5BCA-4BFF-BA19-ABED57CC712A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49338523-5BCA-4BFF-BA19-ABED57CC712A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE021B2-3481-4F2D-8472-C5A5032EF641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE021B2-3481-4F2D-8472-C5A5032EF641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE021B2-3481-4F2D-8472-C5A5032EF641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE021B2-3481-4F2D-8472-C5A5032EF641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
