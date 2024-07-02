@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TackManagement.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstMI : Migration
+    public partial class MI1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

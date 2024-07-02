@@ -10,7 +10,7 @@ using TackManagementModle.Data;
 
 namespace TackManagement.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(AppDbContexts))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -155,7 +155,7 @@ namespace TackManagement.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("TackManagementModle.Models.Identity.AppUser", b =>
+            modelBuilder.Entity("TackManagementModle.Entities.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -231,7 +231,7 @@ namespace TackManagement.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("TackManagementModle.Models.Task", b =>
+            modelBuilder.Entity("TackManagementModle.Entities.Tasks", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -277,7 +277,7 @@ namespace TackManagement.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -286,7 +286,7 @@ namespace TackManagement.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -301,7 +301,7 @@ namespace TackManagement.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -310,16 +310,16 @@ namespace TackManagement.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("TackManagementModle.Models.Identity.AppUser", null)
+                    b.HasOne("TackManagementModle.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TackManagementModle.Models.Task", b =>
+            modelBuilder.Entity("TackManagementModle.Entities.Tasks", b =>
                 {
-                    b.HasOne("TackManagementModle.Models.Identity.AppUser", "User")
+                    b.HasOne("TackManagementModle.Entities.AppUser", "User")
                         .WithMany("Tasks")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -328,7 +328,7 @@ namespace TackManagement.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("TackManagementModle.Models.Identity.AppUser", b =>
+            modelBuilder.Entity("TackManagementModle.Entities.AppUser", b =>
                 {
                     b.Navigation("Tasks");
                 });

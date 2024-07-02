@@ -16,19 +16,17 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using TackManagementModle.Entities;
 
-namespace TackManagementModle.Areas.Identity.Pages.Account
+namespace TackManagement.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
         private readonly SignInManager<AppUser> _signInManager;
-        private readonly UserManager<AppUser> _userManager;
         private readonly ILogger<LoginModel> _logger;
 
-        public LoginModel(SignInManager<AppUser> signInManager, ILogger<LoginModel> logger, UserManager<AppUser> userManager)
+        public LoginModel(SignInManager<AppUser> signInManager, ILogger<LoginModel> logger)
         {
             _signInManager = signInManager;
             _logger = logger;
-            _userManager = userManager;
         }
 
         /// <summary>
@@ -63,11 +61,22 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
+
+            [MaxLength(100)]
+            public string FirstName { get; set; }
+
+            [MaxLength(100)]
+            public string LastName { get; set; }
+
+            [MaxLength(100)]
+            public string UserName { get; set; }
+
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
+            [EmailAddress]
             public string Email { get; set; }
 
             /// <summary>
@@ -103,7 +112,6 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
         }
 
-
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
@@ -112,48 +120,18 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                AppUser user = new EmailAddressAttribute().IsValid(Input.Email)
-                    ? await _userManager.FindByEmailAsync(Input.Email)
-                    : await _userManager.FindByNameAsync(Input.Email);
-
-                if (user == null)
-                {
-                    ModelState.AddModelError(string.Empty, "Invalid username or password.");
-                    return Page();
-                }
-
-                // Log user information for debugging
-                _logger.LogDebug("User found: {UserName}, {Email}", user.UserName, user.Email);
-
-                if (string.IsNullOrEmpty(user.UserName))
-                {
-                    ModelState.AddModelError(string.Empty, "User's username cannot be null or empty.");
-                    return Page();
-                }
-
-                if (string.IsNullOrEmpty(Input.Password))
-                {
-                    ModelState.AddModelError(string.Empty, "Password cannot be null or empty.");
-                    return Page();
-                }
-
-                // Verify if the user has any required claims
-                var userClaims = await _userManager.GetClaimsAsync(user);
-                _logger.LogDebug("User claims: {Claims}", string.Join(", ", userClaims.Select(c => $"{c.Type}: {c.Value}")));
-
-                var result = await _signInManager.PasswordSignInAsync(user.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
-
+                // This doesn't count login failures towards account lockout
+                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
+                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return RedirectToAction("Index", "Tasks");
+                    return LocalRedirect(returnUrl);
                 }
-
                 if (result.RequiresTwoFactor)
                 {
                     return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
                 }
-
                 if (result.IsLockedOut)
                 {
                     _logger.LogWarning("User account locked out.");
@@ -161,7 +139,7 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid username or password.");
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                     return Page();
                 }
             }
@@ -169,64 +147,5 @@ namespace TackManagementModle.Areas.Identity.Pages.Account
             // If we got this far, something failed, redisplay form
             return Page();
         }
-
-
-
-        //public async Task<IActionResult> OnPostAsync(string returnUrl = null)
-        //{
-        //    returnUrl ??= Url.Content("~/");
-
-        //    ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        AppUser user = new EmailAddressAttribute().IsValid(Input.Email) ? _userManager.FindByEmailAsync(Input.Email).Result : _userManager.FindByNameAsync(Input.Email).Result;
-
-        //        if (user is null)
-        //        {
-        //            ModelState.AddModelError(string.Empty, "Invalid userName or password");
-        //            return Page();
-        //        }
-        //        // This doesn't count login failures towards account lockout
-        //        // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-        //        var result = await _signInManager.PasswordSignInAsync(user.UserName, Input.Password, Input.RememberMe, lockoutOnFailure: false);
-        //        if (result.Succeeded)
-        //        {
-        //            _logger.LogInformation("User logged in.");
-        //            return RedirectToAction("Index", "Tasks");
-        //            //return LocalRedirect(returnUrl);
-        //        }
-        //        if (result.RequiresTwoFactor)
-        //        {
-        //            return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
-        //        }
-        //        if (result.IsLockedOut)
-        //        {
-        //            _logger.LogWarning("User account locked out.");
-        //            return RedirectToPage("./Lockout");
-        //        }
-        //        else
-        //        {
-        //            ModelState.AddModelError(string.Empty, "Invalid userName or password");
-        //            return Page();
-        //        }
-        //    }
-
-        //    // If we got this far, something failed, redisplay form
-        //    return Page();
-        //}
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
