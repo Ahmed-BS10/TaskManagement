@@ -1,14 +1,23 @@
 
 # TaskManagementSystem_ASP.Net_CORE_MVC
-# Befor Run The Project :
+## Running the Program
 
-1 Download package <br></br>
-2 Make Migration <br></br>
+To run the program on your device, follow these steps:
 
-# We Using :
-1 .Net 8 <br></br>
-2 authentication And authorized <br></br>
-3 CUED Operstion <br></br>
+1. Activate the Add-Migration command to create a new migration.
+2. Activate the Update-Database command to update and create the database.
+3. Run the application and explore its features.
+
+## Dependencies
+
+This project relies on a set of technologies and libraries, including:
+
+- ASP.NET Core: Web framework for developing applications.
+- Entity Framework Core: Tool for managing and interacting with databases in .NET applications.
+- C#: Primary programming language used in .NET application development.
+- BotsRSB: CSS library for designing stylish and advanced user interfaces.
+
+
 
 # Introdecation : 
 A web-based task management system with user authentication, task creation, complete and Un complete 
@@ -38,3 +47,8 @@ Create Task
 ![لقطة شاشة 2024-07-03 015051](https://github.com/Ahmed-BS10/TaskManagement/assets/157908930/b806d69e-6018-40a5-bf6e-e8d14f45c5b7)
 
 <br></br>
+
+## Contribution
+
+We welcome contributions from developers and users. If you have any suggestions to improve the program or would like to contribute to its development, please open a Pull Request or contact us through the Issues section.
+
