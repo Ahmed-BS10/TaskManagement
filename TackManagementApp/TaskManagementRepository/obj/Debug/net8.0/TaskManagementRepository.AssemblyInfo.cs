@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskManagementRepository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8413e44247cbb89ed614ad768503e2c945ef34c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ed1fe1478fdae5f6510d91040cb14ded763a214")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskManagementRepository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskManagementRepository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

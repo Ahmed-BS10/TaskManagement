@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\tasks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -85,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Migrations\\20240702195642_F1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TackManagement\\Migrations\\20240702195642_F1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|solutionrelative:tackmanagement\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49338523-5BCA-4BFF-BA19-ABED57CC712A}|TackManagement\\TackManagement.csproj|c:\\users\\ahmed ben sahmaln\\source\\repos\\taskmanagement\\tackmanagementapp\\tackmanagement\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -122,76 +126,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TackManagement\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TackManagement\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T00:10:00.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Tasks\\Index.cshtml",
               "RelativeDocumentMoniker": "TackManagement\\Views\\Tasks\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Tasks\\Index.cshtml",
               "RelativeToolTip": "TackManagement\\Views\\Tasks\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAACwAAABUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T17:53:53.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Program.cs",
-              "RelativeDocumentMoniker": "TackManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Program.cs",
-              "RelativeToolTip": "TackManagement\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T13:49:09.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "TackManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\appsettings.json",
-              "RelativeToolTip": "TackManagement\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-02T13:50:48.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TackManagement\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TackManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T14:47:43.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Tasks\\Create.cshtml",
               "RelativeDocumentMoniker": "TackManagement\\Views\\Tasks\\Create.cshtml",
               "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Tasks\\Create.cshtml",
               "RelativeToolTip": "TackManagement\\Views\\Tasks\\Create.cshtml",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAG8AAAARAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-02T17:58:07.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TackManagement\\Views\\_ViewImports.cshtml",
@@ -199,12 +177,11 @@
               "RelativeToolTip": "TackManagement\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T20:16:19.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T20:16:19.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TackManagement\\Views\\Home\\Index.cshtml",
@@ -217,7 +194,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T14:14:51.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T14:41:14.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T14:15:35.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TackManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TackManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:47:43.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "TackManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\appsettings.json",
+              "RelativeToolTip": "TackManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-02T13:50:48.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TackManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Program.cs",
+              "RelativeToolTip": "TackManagement\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:49:09.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "20240702224512_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Migrations\\20240702224512_Initial.cs",
               "RelativeDocumentMoniker": "TackManagement\\Migrations\\20240702224512_Initial.cs",
@@ -225,24 +277,11 @@
               "RelativeToolTip": "TackManagement\\Migrations\\20240702224512_Initial.cs",
               "ViewState": "AQIAAKwAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T22:45:13.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T22:45:13.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T14:14:51.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TaskManagementRepository\\Base\\IRepository.cs",
               "RelativeDocumentMoniker": "TaskManagementRepository\\Base\\IRepository.cs",
@@ -250,12 +289,11 @@
               "RelativeToolTip": "TaskManagementRepository\\Base\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T20:10:41.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T20:10:41.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TaskManagementRepository\\Base\\Repository.cs",
               "RelativeDocumentMoniker": "TaskManagementRepository\\Base\\Repository.cs",
@@ -263,12 +301,11 @@
               "RelativeToolTip": "TaskManagementRepository\\Base\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T20:11:40.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T20:11:40.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "TackManagement\\Controllers\\TasksController.cs",
@@ -276,24 +313,11 @@
               "RelativeToolTip": "TackManagement\\Controllers\\TasksController.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwBAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T14:01:36.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T14:01:36.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAABYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T14:15:35.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -305,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "TaskManagementRepository.csproj",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TaskManagementRepository\\TaskManagementRepository.csproj",
               "RelativeDocumentMoniker": "TaskManagementRepository\\TaskManagementRepository.csproj",
@@ -317,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "TackManagement.csproj",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\TackManagement.csproj",
               "RelativeDocumentMoniker": "TackManagement\\TackManagement.csproj",
@@ -329,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "TackManagementModle.csproj",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagementModle\\TackManagementModle.csproj",
               "RelativeDocumentMoniker": "TackManagementModle\\TackManagementModle.csproj",
@@ -341,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagementModle\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "TackManagementModle\\Entities\\AppUser.cs",
@@ -353,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -365,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TackManagement\\Views\\Shared\\_Layout.cshtml",
@@ -377,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "20240702195642_F1.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Migrations\\20240702195642_F1.cs",
               "RelativeDocumentMoniker": "TackManagement\\Migrations\\20240702195642_F1.cs",
@@ -389,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -401,19 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "TackManagement\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-02T14:41:14.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "20240702172558_F1.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Migrations\\20240702172558_F1.cs",
               "RelativeDocumentMoniker": "TackManagement\\Migrations\\20240702172558_F1.cs",
@@ -425,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "TackManagement\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -437,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Tasks.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagementModle\\Entities\\Tasks.cs",
               "RelativeDocumentMoniker": "TackManagementModle\\Entities\\Tasks.cs",
@@ -449,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagement\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "TackManagement\\ScaffoldingReadMe.txt",
@@ -461,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Ahmed Ben Sahmaln\\source\\repos\\TaskManagement\\TackManagementApp\\TackManagementModle\\Entities\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "TackManagementModle\\Entities\\ErrorViewModel.cs",
