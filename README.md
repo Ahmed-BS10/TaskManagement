@@ -1,6 +1,16 @@
 
 # TaskManagementSystem_ASP.Net_CORE_MVC
+# Befor Run The Project :
 
+1 Make Restore Database In Foler Abvoe <br></br>
+2 Make Migration <br></br>
+
+# We Using :
+1 .Net 8 <br></br>
+2 authentication And authorized <br></br>
+3 CUED Operstion <br></br>
+
+# Introdecation : 
 A web-based task management system with user authentication, task creation, complete and Un complete 
 
 *Home Index page, description of what the app is about and its features*
