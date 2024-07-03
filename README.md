@@ -2,7 +2,7 @@
 # TaskManagementSystem_ASP.Net_CORE_MVC
 # Befor Run The Project :
 
-1 Make Restore Database In Foler Abvoe <br></br>
+1 Download package <br></br>
 2 Make Migration <br></br>
 
 # We Using :
